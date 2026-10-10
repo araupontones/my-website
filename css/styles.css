@@ -334,6 +334,14 @@ a:hover {
   letter-spacing: -0.02em;
 }
 
+/* Mobile: photo stacked and centred above the name */
+@media (max-width: 767px) {
+  .about__identity {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
 /* Fixed height so phrases of different lengths don't shift the layout.
    Two lines on narrow screens where long phrases wrap, one line otherwise. */
 .tagline {
